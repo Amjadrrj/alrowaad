@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+background: #5e7e7b;
+color: #c2bcbc ;
+}
+
+#header{
+width: 100%;
+height: 100vh;
+background-image: url();
+background-size: cover;
+background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 115px;
+}
+
+nav ul li{
+    display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #c2bcbc;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #c4888f  ;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+margin-top: 20%;
+font-size: 80px;
+
+}
+
+/*---------------------intro-----------------*/
+#intro{
+padding: 40px;
+color: #5e7e7b ;
+background: #c2bcbc;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.intro-col-1{
+    flex-basis: 35%;
+}
+
+.intro-col-1 img{
+width: 100%;
+border-radius: 15px;
+}
+
+.intro-col-2{
+flex-basis: 60%;
+}
+
+.sub-title{
+
+    font-size: 60px;
+    font-weight: 1000;
+    color: #5e7e7b;
+
+}
+
+.tab-titles{
+    display: flex;
+    margin: 90px 0 40px;
+    color: #c46f79;
+
+}
+
+.tab-links{
+margin-right:50px;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+position: relative;
+}
+
+.tab-links::after{
+content:'' ;
+width: 0;
+height: 3px;
+background: #c46f79;
+position: absolute;
+left: 0;
+bottom: -11px;
+transition: 0.5s;
+
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+
+}
+
+.tab-contents ul li{
+    list-style: circle;
+    margin: 10px 3px;
+}
+
+
+
+.tab-contents ul li span{
+    color: #a86f6f;
+    font-size: 14px;
+
+}
+.tab-contents{
+    display: none;
+
+}
+
+.tab-contents.active-tab{
+display: inline;
+}
+
+.tab-contents2 ul li{
+    list-style: circle;
+    margin: 10px 0;
+} 
+
+.tab-contents2 ul li span{
+    color: #a86f6f;
+    font-size: 14px;
+}
+
+.tab-contents2 ul li br{
+    color: #c46f79;
+}
+
+.tab-contents2 ul  {
+    color: #c46f79;
+}
+
+.tab-contents2{
+    display: none;
+}
+
+/*-------------EVENTS2023-------------------*/
+#EVENTS2023{
+padding: 30px 0;
+}
+
+.AMJAD{
+    color: #c2bcbc;
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+.AMJAD span{
+color: #c4888f;
+
+}
+.EVENTS-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.EVENTS-list div{
+    background-color: #c46f79;
+    padding: 40PX;
+    font-size: 13PX;
+    font-weight: 300;
+border-radius: 10px;  
+transition: background 0.5s, transform 0.5s ;  
+}
+
+.EVENTS h1{
+    font-size: 30px;
+    font-weight: 5000;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+
+.EVENTS-list div h2{
+    font-size: 30px;
+    font-weight: 5000;
+    margin-bottom: 15px;
+    color: #c2bcbc;
+}
+
+.EVENTS-list div h3{
+text-decoration: none;
+color: #5e7e7b;
+font-size: 20px;
+margin-top: 20px;
+display: inline-block;
+}
+
+.EVENTS-list div p{
+    text-decoration: none;
+color: #c2bcbc;
+font-size: 15px;
+margin-top: 20px;
+display: inline-block;
+}
+
+.EVENTS-list div:hover{
+    background: #a86f6f;
+transform: translateY(-10px);
+}
+
+
+
+
+
+/*-------------alrowaad talents-------------------*/
+#alrowaad-talents{
+    padding: 30px;
+    background-color: #c2bcbc;
+}
+
+
+
