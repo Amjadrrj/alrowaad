@@ -16,7 +16,7 @@ width: 100%;
 height: 100vh;
 background-image: url();
 background-size: cover;
-background-position: center;
+background-position:center;
 }
 
 .container{
@@ -34,8 +34,11 @@ nav{
     width: 115px;
 }
 
+    
+
+
 nav ul li{
-    display: inline-block;
+display: inline-block;
 list-style: none;
 margin: 10px 20px;
 }
@@ -56,17 +59,23 @@ nav ul li a::after{
     left: 0;
     bottom: -6px;
     transition: 0.5s;
+
 }
 
 nav ul li a:hover::after{
     width: 100%;
 }
 
+nav ul li a-amja{
+    color: #000;
+}
+
 .header-text{
 margin-top: 20%;
-font-size: 80px;
-
+    font-size: 80px;
 }
+
+
 
 /*---------------------intro-----------------*/
 #intro{
@@ -90,7 +99,7 @@ border-radius: 15px;
 }
 
 .intro-col-2{
-flex-basis: 60%;
+flex-basis: 90%;
 }
 
 .sub-title{
@@ -249,9 +258,28 @@ transform: translateY(-10px);
 
 /*-------------alrowaad talents-------------------*/
 #alrowaad-talents{
-    padding: 30px;
-    background-color: #c2bcbc;
+    padding: 50px;
+    background-color: #c46f79;
 }
 
+.alrowaad-talents-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
 
+}
+
+.alrowaad-talents{
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+}
+
+.alrowaad-talents img{
+    width: 70%;
+border-radius:110px ;
+display: block;
+display: inline;
+}
 
